@@ -1,0 +1,25 @@
+{
+  "name": "Japan Squad Trip 2026",
+  "short_name": "Japan Trip",
+  "description": "Interactive day-by-day itinerary for our Japan trip: Tokyo, Kyoto & Osaka",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fef6ff",
+  "theme_color": "#ff5c8a",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
