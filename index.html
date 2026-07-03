@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎌 Japan Squad Trip 2026</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>🎌 Japan Squad Trip</h1>
+    <p class="subtitle">Sep 24 – Oct 4, 2026 · Tokyo → Kyoto → Osaka</p>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <span id="progressText">0 / 0 done</span>
+    </div>
+  </div>
+</header>
+
+<nav class="city-legend">
+  <span class="city-pill tokyo">🗼 Tokyo</span>
+  <span class="city-pill kyoto">⛩️ Kyoto</span>
+  <span class="city-pill osaka">🐙 Osaka</span>
+</nav>
+
+<nav class="day-tabs" id="dayTabs"></nav>
+
+<div class="filter-bar">
+  <button class="filter-btn active" data-filter="all">✨ All</button>
+  <button class="filter-btn" data-filter="do">🎯 Do</button>
+  <button class="filter-btn" data-filter="eat">🍴 Eat</button>
+  <button class="filter-btn" data-filter="shop">🛍️ Shop</button>
+</div>
+
+<main id="dayContent"></main>
+
+<footer>
+  <p>Made with 💖 for the best trip ever. Tap a card to check it off!</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
